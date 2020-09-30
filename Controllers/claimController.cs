@@ -63,7 +63,7 @@ namespace claimmicroservice.Controllers
             return BadRequest();
 
         }
-        Uri baseAddress = new Uri("https://localhost:44367/api");   //Port No.
+        Uri baseAddress = new Uri("http://20.193.136.179/api");   //Port No.
         HttpClient client;
         Imemberclaimrepo db;
         public claimController(Imemberclaimrepo _db)
